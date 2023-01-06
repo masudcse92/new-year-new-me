@@ -15,6 +15,21 @@
     float: right;
 }
 
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin: 15px 0;
+}
+
 /* Header style here  */
 .banner {
     height: 100vh;
@@ -61,10 +76,20 @@ main {
     display: flex;
 }
 
-.check-mark-icon {
-    width: 50px;
+.about-content {
+    padding: 200px 0px 0px 60px;
 }
 
-h2 {
-    text-align: right;
+.check-mark-icon {
+    width: 20px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+li {
+    list-style: none;
+    line-height: 26px;
+    font-size: 16px !important;
+    color: #444343;
+    font-weight: 400;
 }
